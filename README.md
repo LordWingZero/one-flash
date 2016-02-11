@@ -2,7 +2,6 @@
 
 [![NPM version][npm-image]][npm-url]
 [![Dependency Status][david-image]][david-url]
-[![License][license-image]][license-url]
 [![Downloads][downloads-image]][downloads-url]
 
 
@@ -68,11 +67,8 @@ None yet. You should know in less than 60 seconds if its working or not. Just ou
 [npm-image]: https://img.shields.io/npm/v/one-flash.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/one-flash
 
-[david-image]: https://david-dm.org/logwingzero/one-flash.svg
+[david-image]: https://david-dm.org/lordwingzero/one-flash.svg
 [david-url]: https://david-dm.org/lordwingzero/one-flash
-
-[license-image]: http://img.shields.io/npm/l/one-flash.svg?style=flat-square
-[license-url]: LICENSE
 
 [downloads-image]: http://img.shields.io/npm/dm/one-flash.svg?style=flat-square
 [downloads-url]: https://npmjs.org/package/one-flash
