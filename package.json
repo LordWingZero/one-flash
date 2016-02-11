@@ -1,0 +1,20 @@
+{
+  "name": "one-flash",
+  "version": "0.0.0",
+  "description": "A chat example to showcase how to use `socket.io` with a static `express` server with `async` for control flow.",
+  "main": "server.js",
+  "scripts": {
+    "test": "DEBUG=http,tests mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LordWingZero/one-flash.git"
+  },
+  "keywords": [
+    "expressjs",
+    "express",
+    "flash",
+    "express-flash"
+  ],
+  "author": "Victorio Berra <toryberra@gmail.com>"
+}
