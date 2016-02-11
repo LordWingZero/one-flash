@@ -65,11 +65,11 @@ res.locals.flash = [
 
 None yet. You should know in less than 60 seconds if its working or not. Just output the value of flash in your view.
 
-[npm-image]: https://img.shields.io/npm/v/flash.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/flash
+[npm-image]: https://img.shields.io/npm/v/one-flash.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/one-flash
 
 [david-image]: https://david-dm.org/logwingzero/one-flash.svg
-[david-url]: https://david-dm.org/logwingzero/one-flash
+[david-url]: https://david-dm.org/lordwingzero/one-flash
 
 [license-image]: http://img.shields.io/npm/l/one-flash.svg?style=flat-square
 [license-url]: LICENSE
