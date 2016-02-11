@@ -1,7 +1,7 @@
 {
   "name": "one-flash",
   "version": "0.0.0",
-  "description": "A chat example to showcase how to use `socket.io` with a static `express` server with `async` for control flow.",
+  "description": "A flash implementation for Express that goes away after the first navigation.",
   "main": "server.js",
   "scripts": {
     "postversion": "git push && git push --tags && npm publish"
