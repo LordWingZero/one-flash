@@ -63,7 +63,7 @@ res.locals.flash = [
 
 ## Tests
 
-Tests use the selenium server with phantomjs as the browser. Install phantom globally, and then run ```npm test```.
+None yet. You should know in less than 60 seconds if its working or not. Just output the value of flash in your view.
 
 [npm-image]: https://img.shields.io/npm/v/flash.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/flash
