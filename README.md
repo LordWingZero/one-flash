@@ -2,8 +2,7 @@
 
 [![NPM version][npm-image]][npm-url]
 [![Dependency Status][david-image]][david-url]
-[![License][license-image]][license-url]
-[![Downloads][downloads-image]][downloads-url]
+[![Gittip][gittip-image]][gittip-url]
 
 
 A flash implementation for Express that goes away after the first navigation.
@@ -68,14 +67,8 @@ Tests use the selenium server with phantomjs as the browser. Install phantom glo
 [npm-image]: https://img.shields.io/npm/v/flash.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/flash
 
-[david-image]: https://david-dm.org/logwingzero/one-flash.svg
-[david-url]: https://david-dm.org/logwingzero/one-flash
-
-[license-image]: http://img.shields.io/npm/l/one-flash.svg?style=flat-square
-[license-url]: LICENSE
-
-[downloads-image]: http://img.shields.io/npm/dm/one-flash.svg?style=flat-square
-[downloads-url]: https://npmjs.org/package/one-flash
+[david-image]: https://david-dm.org/lordwingzero/one-flash.svg
+[david-url]: https://david-dm.org/lordwingzero/one-flash
 
 [gittip-image]: https://img.shields.io/gittip/jonathanong.svg?style=flat-square
 [gittip-url]: https://www.gittip.com/lordwingzero/
