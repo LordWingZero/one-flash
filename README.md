@@ -62,7 +62,7 @@ res.locals.flash = [
 
 ## Tests
 
-Tests use the selenium server with phantomjs as the browser. Install phantom globally, and then run ```npm test```.
+The entire middleware is very small, and im not sure how to do automated test redirects without a complex Selenium setup. You should know in about two seconds if it doesnt work. Just copy/paste the router samples above and test it.
 
 [npm-image]: https://img.shields.io/npm/v/flash.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/flash
