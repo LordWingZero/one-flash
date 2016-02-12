@@ -64,8 +64,8 @@ res.locals.flash = [
 
 The entire middleware is very small, and im not sure how to do automated test redirects without a complex Selenium setup. You should know in about two seconds if it doesnt work. Just copy/paste the router samples above and test it.
 
-[npm-image]: https://img.shields.io/npm/v/flash.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/flash
+[npm-image]: https://img.shields.io/npm/v/one-flash.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/one-flash
 
 [david-image]: https://david-dm.org/lordwingzero/one-flash.svg
 [david-url]: https://david-dm.org/lordwingzero/one-flash
