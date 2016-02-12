@@ -1,6 +1,6 @@
 {
   "name": "one-flash",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A flash implementation for Express that goes away after the first navigation.",
   "main": "server.js",
   "scripts": {
