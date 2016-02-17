@@ -21,6 +21,12 @@ module.exports = function(req, res, next) {
 
     var _render = res.render;
     res.render = function(view, options, fn) {
+        // support the callback as the second argument
+        if(typeof(options) === 'function'){
+            fn = options;
+            options = {};
+        }
+        
         if (!options) {
             options = {};
         }
