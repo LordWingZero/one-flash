@@ -9,7 +9,8 @@ module.exports = function(req, res, next) {
     req.session.flash = [];
 
     req.oneFlash = function(type, message) {
-        if(!type){
+        if (!message) {
+            message = type;
             type = 'info';
         }
         req.session.flash.push({
@@ -20,12 +21,15 @@ module.exports = function(req, res, next) {
 
     var _render = res.render;
     res.render = function(view, options, fn) {
-        if (typeof(options) === 'object') {
-            if (req.session.flash.length > 0 && res.locals.flash.length === 0) {
-                options.flash = req.session.flash;
-                req.session.flash = [];
-            }
+        if (!options) {
+            options = {};
         }
+        
+        if (req.session.flash.length > 0 && res.locals.flash.length === 0) {
+            options.flash = req.session.flash;
+            req.session.flash = [];
+        }
+
         _render.call(this, view, options, fn);
     }
     next();

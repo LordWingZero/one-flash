@@ -29,7 +29,7 @@ router.get('/flash', function(req, res) {
 });
 
 router.get('/flashrender', function(req, res) {
-    req.oneFlash('hello render');
+    req.oneFlash('hello render'); // notice how type is not required. It will default to 'info'.
     res.render('index', {
         title: 'Index - TEST'
     });
@@ -41,7 +41,7 @@ router.get('/flashrender', function(req, res) {
 (Nunjucks + bootstrap.js 3.x)
 ```html
   {% for message in flash %}
-  <div class="alert alert-{{ message.type if message.type else "info" }} alert-dismissible" role="alert">
+  <div class="alert alert-{{ message.type }} alert-dismissible" role="alert">
     <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
     {{ message.message }}
   </div>
