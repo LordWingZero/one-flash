@@ -21,19 +21,21 @@ module.exports = function(req, res, next) {
 
     var _render = res.render;
     res.render = function(view, options, fn) {
-        // support the callback as the second argument
-        if(typeof(options) === 'function'){
-            fn = options;
-            options = {};
-        }
-        
-        if (!options) {
-            options = {};
-        }
-        
-        if (req.session.flash.length > 0 && res.locals.flash.length === 0) {
-            options.flash = req.session.flash;
-            req.session.flash = [];
+        if (req.session) {
+            // support the callback as the second argument
+            if (typeof(options) === 'function') {
+                fn = options;
+                options = {};
+            }
+
+            if (!options) {
+                options = {};
+            }
+
+            if (req.session.flash.length > 0 && res.locals.flash.length === 0) {
+                options.flash = req.session.flash;
+                req.session.flash = [];
+            }
         }
 
         _render.call(this, view, options, fn);
